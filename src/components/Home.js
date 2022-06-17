@@ -1,29 +1,171 @@
+import {Link} from 'react-router-dom';
+
 function Home() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div className="container">
-      <a className="navbar-brand" href="#">Navbar</a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ms-auto">
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Features</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Pricing</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
+    <div className="container mt-4">
+    {/* Latest Courses */}
+      <h3 className="pub-1 mb-4">Latest Courses<a href="#" class="float-end">See All</a></h3>
+      <div className="row">
+        <div className="col-md-3">
+          <div className="card">
+            <Link to="/detail/1"><img src="logo512.png" className="card-img-top" alt="..."/></Link>
+            <div className="card-body">
+              <h5 className="card-title"><Link to="/detail/1">Course title</Link></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* End Latest Courses */}
+      {/* Popular Courses */}
+      <h3 className="pub-1 mb-4 mt-5">Popular Courses<a href="#" class="float-end">See All</a></h3>
+      <div className="row">
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Course title</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Popular Courses */}
+      {/* Popular Teachers */}
+      <h3 className="pub-1 mb-4 mt-5">Popular Teachers<a href="#" class="float-end">See All</a></h3>
+      <div className="row">
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Teacher Name</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Teacher Name</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Teacher Name</a></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3">
+          <div className="card">
+            <a href="#"><img src="logo512.png" className="card-img-top" alt="..."/></a>
+            <div className="card-body">
+              <h5 className="card-title"><a href="#">Teacher Name</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Popular Teachers */}
+       {/* Student Testimonial */}
+       <h3 className="pub-1 mb-4 mt-5">Student Testimonial</h3>
+       <div id="carouselExampleIndicators" class="carousel slide bg-dark text-white py-5" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+          <figure className="text-center">
+            <blockquote className="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption className="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+          </div>
+          <div className="carousel-item">
+          <figure className="text-center">
+            <blockquote className="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption className="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+          </div>
+          <div className="carousel-item">
+          <figure className="text-center">
+            <blockquote className="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption className="blockquote-footer">
+              Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+          </div>
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+      {/* End Student Testimonial */}
     </div>
-  </nav>
+    
   );
 }
 

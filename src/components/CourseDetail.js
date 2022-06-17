@@ -20,18 +20,43 @@ function CourseDetail() {
             </div>
             {/* Course Vídeos */}
             <div className="card mt-4">
-                <div className="card-header">
+                <h5 className="card-header">
                     Course Videos
-                </div>
+                </h5>
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Introduction <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button> </li>
-                    <li className="list-group-item">Setup Project <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button> </li>
-                    <li className="list-group-item">Start with function <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button> </li>
-                    <li className="list-group-item">Introduction <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button> </li>
-                    <li className="list-group-item">Setup Project <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button> </li>
-                    <li className="list-group-item">Start with function <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button> </li>
+                    <li className="list-group-item">Introduction 
+                        <span className="float-end">
+                            <span className="me-5">1 Hour 30 Minuts</span>
+                            <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button>
+                        </span>
+                    </li>
+                    <li className="list-group-item">Introduction 
+                        <span className="float-end">
+                            <span className="me-5">1 Hour 30 Minuts</span>
+                            <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button>
+                        </span>
+                    </li>
+                    <li className="list-group-item">Introduction 
+                        <span className="float-end">
+                            <span className="me-5">1 Hour 30 Minuts</span>
+                            <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button>
+                        </span>
+                    </li>
+                    <li className="list-group-item">Introduction 
+                        <span className="float-end">
+                            <span className="me-5">1 Hour 30 Minuts</span>
+                            <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button>
+                        </span>
+                    </li>
+                    <li className="list-group-item">Introduction 
+                        <span className="float-end">
+                            <span className="me-5">1 Hour 30 Minuts</span>
+                            <button className="brn btn-sm btn-danger float-end"><i class="bi-youtube"></i></button>
+                        </span>
+                    </li>
                 </ul>
             </div>
+
             <h3 className="pub-1 mb-4 mt-5">Related Courses<a href="#" class="float-end">See All</a></h3>
             <div className="row">
                 <div className="col-md-3">
